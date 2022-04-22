@@ -1,0 +1,36 @@
+.customListItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .itemCheckbox {
+    }
+
+    .itemText {
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .itemTextDone {
+        color: rgb(43, 73, 226);
+        text-decoration: line-through;
+    }
+
+    .itemButton {
+        width: 20%;
+        height: 40px;
+        background-color: azure;
+        border-radius: 10px;
+        border: 0;
+        font-size: 15px;
+        transition: all 0.3s linear;
+    
+        &:hover {
+            cursor: pointer;
+            color: white;
+            background-color: rgb(226, 43, 101);
+        }
+    }
+}
